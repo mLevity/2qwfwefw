@@ -5,7 +5,7 @@ from datetime import datetime
 from flask_cors import CORS
 import random
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://astonishing-bunny-deb24c.netlify.app"])
 
 # Функция для подключения к базе данных
 def get_db_connection():
